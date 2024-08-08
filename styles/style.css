@@ -45,7 +45,7 @@ ul, ol {
 
 .content {
     display: flex;
-    padding: 133px 30px;
+    padding: 0 30px 133px;
     gap: 30px;
     align-items: flex-end;
 }
