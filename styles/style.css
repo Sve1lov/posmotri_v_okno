@@ -106,6 +106,7 @@ ol {
 
 .content__video-card-description-container {
     flex: 1;
+    max-width: 200px;
 }
 
 .content__video-card .content__video-card-thumbnail {
@@ -126,6 +127,10 @@ ol {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 3px;
 }
 
 .title {
@@ -236,7 +241,7 @@ fieldset {
     text-decoration-skip-ink: none;
 }
 
-.content__list-item:hover .content__video-card-title {
+.content__card-link:hover .content__video-card-title {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-skip-ink: none;
@@ -244,7 +249,7 @@ fieldset {
     text-underline-offset: 4px;
 }
 
-.content__list-item:hover .content__video-card-description {
+.content__card-link:hover .content__video-card-description {
     cursor: pointer;
     text-decoration: underline;
     text-decoration-skip-ink: none;
